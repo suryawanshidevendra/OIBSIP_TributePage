@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+    text-align: center;
+    background-color: #F0EEED;
+}
+
+header{
+    font-family: 'Rubik', sans-serif;
+    height: 15vh;
+    padding: 1% 0.5%;
+    font-size: 30px;
+}
+
+header img{
+    position: absolute;
+    left: 8%;
+    top: 1.5%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+header p{
+    padding-left: 13%;
+    padding-top: 5px;
+}
+
+hr{
+    margin-top: 5%;
+    border: 1px solid;
+}
+
+.content{
+    position: relative;
+    height: 60vh;
+    padding: 5% 1%;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 3%;
+    padding: 0 8%;
+    text-align: justify;
+    line-height: 1.7;
+}
+
+.content h1{
+    margin: 2% 0;
+}
+
+.content img{
+    margin: 0 3%;
+}
+
+.earlyLife{
+    margin-bottom: 3%;
+    display: flex;
+}
+
+.earlyLife p{
+    margin-top: -15px;
+}
+
+.domesticCareer{
+    margin: 4% 0;
+    display: flex;
+}
+
+.domesticCareer p{
+    margin-top: -30px;
+}
+
+.internationalCareer{
+    margin: 4% 0;
+    display: flex;
+}
+
+.internationalCareer p{
+    margin-top: -30px;
+}
+
+.achievements{
+    margin: 4% 0;
+    display: flex;
+}
+
+.achievements p{
+    margin-top: -30px;
+}
+
+.achievements img{
+    position: absolute;
+    right: 7%;
+}
+
+.achievements ol{
+    padding-left: 20px;
+}
+
+footer{
+    height: 3vh;
+    position: absolute;
+    bottom: 0.5%;
+    left: 45%;
+    font-size: small;
+}
+
+.galHead{
+    padding-top: 11%;
+    text-align: center;
+    /* font-size: 42px; */
+}
+
+.imgGallery{
+    position: relative;
+    margin-top: 94%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    /* grid-gap: 5rem; */
+    background-color: #0A2647;
+}
+
+.imgGallery img{
+    width: 300px;
+    height: 35vh;
+    margin: 10% 20%;
+    transition: all .2s ease-in-out;
+    border-radius: 5px;
+}
+
+.imgGallery img:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    position: absolute;
+    top: 380%;
+    margin-bottom: 2px;
+    font-size: medium;
+    font-family: 'Karla', 'sans-serif';
+    font-weight: bold;
+}
+
+/* footer span{
+    color: red;
+} */
